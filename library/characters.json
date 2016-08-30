@@ -1,0 +1,32 @@
+{"character":[
+  {
+    "id": 0,
+    "name":"Chewbacca",
+    "birthdate": "200 BBY",
+    "race": "Wookiee",
+    "origin": "Kashyyyk",
+    "sex": "Male",
+    "image": "http://vignette4.wikia.nocookie.net/starwars/images/4/4f/Chewbacca-TFA.png/revision/latest?cb=20160106141736",
+    "quote": "Uuuuuuuuuuur Ahhhhhhhrrrr Uhhrrrr Ahhhhrrr"
+  },
+  {
+    "id": 1,
+    "name": "Han Solo",
+    "birthdate": "29 BBY",
+    "race": "Human",
+    "origin": "Corellia",
+    "sex": "Male",
+    "image": "http://vignette3.wikia.nocookie.net/starwars/images/0/01/Hansoloprofile.jpg/revision/latest/scale-to-width-down/499?cb=20100129155042",
+    "quote": "It's not wise to upset a Wookie"
+  },
+  {
+    "id": 2,
+    "name": "Leia Organa",
+    "birthdate": "19 BBY",
+    "race": "Human",
+    "origin": "Alderaan",
+    "sex": "Female",
+    "image": "https://upload.wikimedia.org/wikipedia/en/1/1b/Princess_Leia's_characteristic_hairstyle.jpg",
+    "quote": "I don't know who you are, or where you came from, but from now on, you'll do as I say"
+  }
+]}
