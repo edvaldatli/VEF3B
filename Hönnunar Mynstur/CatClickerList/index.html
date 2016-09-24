@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+          rel="stylesheet">
+    <link rel="stylesheet" href="style/style.css">
+
+</head>
+<body>
+<ul id="slide-out" class="side-nav fixed">
+
+</ul>
+<a href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons">menu</i></a>
+
+<div class="info col s6 offset-s4 container">
+
+</div>
+<script id="catInfo" type="text/x-handlebars-template">
+    <div class="catInfo">
+        <h1>{{name}}</h1>
+        <h3 id="clicks">Clicks: {{numberOfClicks}}</h3>
+        <ul class="catInfo">
+            <li>Age: {{age}}</li>
+            <li>Color: {{color}}</li>
+        </ul>
+        <img class="catImage" src="{{img}}">
+    </div>
+</script>
+<script id="catList" type="text/x-handlebars-template">
+    {{#each cats}}
+    <li class="col s12"><a id="{{id}}">{{name}}</a></li>
+    {{/each}}
+</script>
+</body>
+<script src="include/handlebars-v4.0.5.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js"></script>
+<script src="script/js.js"></script>
+</html>
